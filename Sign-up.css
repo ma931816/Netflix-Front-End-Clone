@@ -1,0 +1,230 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+html,body
+{
+    background-color:rgb(184, 28, 28);
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-image: url(./the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.bar1
+{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    color:red;
+    background-color: white;
+    height: 80px;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.bar1 li:hover
+{
+  color: orange;
+}
+.bar1 img
+{
+    height: 60px;
+    
+}
+.phone
+{
+    display: none;
+}
+.laptop
+{
+    display:block;
+}
+@media screen and (min-width: 200px) and (max-width: 800px) 
+{
+    .bar1
+    {
+        flex-direction: column;
+        height: 150px;
+        width:90%;
+        justify-content: center;
+    }
+   
+
+}
+.page
+{
+    position: relative;
+    left: 1742px;
+    bottom:52px;
+}
+.page li
+{
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+    list-style-type: none;
+}
+.tag
+{
+    text-decoration: none;
+    color: red;
+}
+.foot1
+{
+    position: relative;
+    top:880px;
+    width: 100%;
+    color: white !important;
+}
+#footabout
+{
+    position: relative;
+    bottom: 10px;
+}
+.footpic
+{
+    position: relative;
+    height: 80px !important;
+   
+}
+.form
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    top: 200px;
+    position: relative;
+    left: 40%;
+    flex-direction: column;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    height: 400px;
+    width: 440px;
+    border-radius: 8px;
+    border-color:black;
+    text-align: left;
+    margin-top: 7px;
+    opacity:80%;
+   
+}
+@media screen and (min-width:200px) and (max-width:800px)
+{
+    .form
+    {
+        position: relative;
+        flex-direction: column;
+        height: 340px;
+        width:340px;
+        justify-content:center;
+      
+    }
+    .button
+    {
+    cursor: pointer;
+    left: 520px;
+    width:90px !important;
+    height:40px;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 10px;
+    }
+    .textform3
+    {
+    position: relative;
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    bottom: 40px;
+    left:20px !important;
+    
+    }
+}
+.form input:focus
+{
+    background-color: red;
+
+}
+.button
+{
+   
+    position: relative;
+    cursor: pointer;
+    left: 70px;
+    width:200px;
+    height:40px;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 20px;
+
+    
+}
+.button:hover
+{
+    animation: animation 2s infinite ease-in-out ;
+    
+}
+.signuphead
+{
+    position: relative;
+    height:200px;
+    left:80px;
+    bottom:20px;
+}
+#textform1
+{
+    font-size: 26px;
+    padding: 6px;
+}
+#textform2
+{
+    font-size: 26px;
+    padding: 14.8px;
+}
+.textform3
+{
+    position: relative;
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    bottom: 40px;
+    right: 10px;
+    
+}
+#textbar1
+{
+  width: 220px;
+  height:38px;
+  border-radius: 8px;
+  background-color: white;
+  text-align: center;
+}
+#textbar2
+{
+    width: 220px;
+    height:38px;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+}
+@keyframes animation
+    {
+        0%
+        {
+            background-color: white;
+        }
+        50%
+        {
+            background-color:lightgreen;
+        }
+        100%
+        {
+            background-color:tomato
+        }
+    }

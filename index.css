@@ -1,0 +1,237 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+html,body
+{
+    background-color:rgb(184, 28, 28);
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: serif !important;
+    color: black !important;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-evenly;
+    color:red;
+    background-color: rgb(19, 18, 18);
+    height: 80px;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.navbar li:hover
+{
+  color: orange;
+}
+.navbar img
+{
+    position: relative;
+    height: 60px;
+    left:40px;
+}
+.phone
+{
+    display: none;
+}
+.laptop
+{
+    display:block;
+}
+@media screen and (min-width: 200px) and (max-width: 800px) 
+{
+    .navbar
+    {
+        flex-direction: column;
+        height: 150px;
+        width:100%;
+        justify-content: center;
+    }
+    .phone
+    {
+        display: block;
+    }
+    .laptop
+    {
+       display: block;
+    }
+    .container2
+    {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+.tag1
+{
+    display: inline-block;
+    text-decoration: none;
+    color: red;
+    display: flex;
+    font-size: 20px;
+    
+}
+.tag2
+{
+    display: inline-block;
+    text-decoration: none;
+    color: red;
+    display: flex;
+    font-size: 20px;
+    
+}
+.tag3
+{
+    display: inline-block;
+    text-decoration: none;
+    color: red;
+    display: flex;
+    font-size: 20px;    
+}
+.shows
+{
+    align-items: center;
+    padding: 1%;
+}
+.shows img
+{
+  display: flex;
+  width: 250px;
+  border:8px solid black;
+  border-radius: 6px;
+
+}
+.shows h4
+{
+    position: relative;
+    left:60px;
+    margin:20px;
+    bottom: 10px;
+}
+.shows p
+{
+    position: relative;
+    left:72px;
+    bottom: 28px;
+}
+.movie
+{
+  position: relative;
+  left: 78px;
+  color:black;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgb(223, 9, 9);
+  border: none;
+  bottom: 22px;
+  left: 78px;
+  align-content: center;
+}
+.movie:hover
+{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+.flexlist
+{
+    display: flex;
+    gap: 4px;
+    
+}
+.wednesday-text
+{
+    position: relative;
+    left: 20px;
+}
+.page
+{
+    display: flex;
+    color:red;
+    position: relative;
+    left: 1680px;
+    bottom:56px;
+}
+.page li
+{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    list-style: none;
+}
+.sh1
+{
+  position: relative;
+  left:290px;
+  bottom:390px;
+  
+}
+.sh2
+{
+    position: relative;
+    top: 16px;
+}
+.foot1
+{
+    position: relative;
+    top:880px;
+    width: 100%;
+    color: white !important;
+}
+.footpic
+{
+    position: relative;
+    height: 80px !important;
+   
+}
+#footabout
+{
+    position: relative;
+    bottom: 10px;
+}
+.container2
+{
+    display: flex;
+    padding:20px;
+    margin:10px;
+}
+.flex2
+{   display: flex;
+    flex-wrap: wrap;
+    gap:22px;
+    margin-left: 28px;
+
+}
+.shows5
+{
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   padding-left: 10px;
+   
+}
+.shows5 img
+{
+  
+  width: 250px;
+  border:8px solid black;
+  border-radius: 6px;
+  flex-wrap: wrap;
+  
+}
+.movie1
+{
+    position: relative;
+    left: 78px;
+    color:black;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(223, 9, 9);
+    border: none;
+    bottom: 2px;
+    left: 1px;
+    align-content: center;
+}
